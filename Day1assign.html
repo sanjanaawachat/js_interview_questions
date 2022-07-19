@@ -1,0 +1,159 @@
+######################################//DAY 1 Assignment//#######################################
+
+//que1------------------------------------------------------------------------------->
+
+//Difference between “ == “ and “ === “ operators.
+
+//ans:
+//JavaScript provides both strict(===, !==) and 
+//type-converting(==, !=) equality comparison.
+// These Both are Comparision Operators 
+
+// "==" compares only the values 
+// "===" compares both value and data types
+
+//for ex:
+//it gives the boolean values
+//a==10;//true
+
+//b==="10";//false
+
+*************************************************************************************
+
+//que2--------------------------------------------------------------------------------->
+
+//What is the difference between rest parameter and spread operator?
+
+//Rest Parameter: 
+
+// 1.  help us to pass an infinite number of function arguments. …
+
+//please give the example in vs code we can understand better
+
+//for ex------------------------------------>
+
+// function studentbio(name,age,...otherinfo) {
+//     console.log(otherinfo);
+// }
+
+
+//-----------------------------------------------------------------------------------//
+
+// Spread Operator:
+
+//pass an array of numbers as a individual function arguments.
+
+//difference between (rest parameter and spread operater)
+
+
+// The main difference between rest and spread is that the rest operator puts the rest of 
+// some specific user-supplied values into a JavaScript array. But the spread syntax expands
+// iterables into individual elements.
+
+
+// studentbio("sgydc",21,"developer","collegedekho");
+
+//ex1---------------------------------------->
+// let a;
+// a=[1,2,3,4];
+// b=a;
+// b=[...a];
+// console.log(b);
+
+//ex2---------------------------------------->
+// let array1 = ['a', 'b', 'c'];
+// let array2 = [...array1];
+// console.log(array2);
+// Output:[ 'a', 'b', 'c' ]
+
+****************************************************************************************
+
+//que3------------------------------------------------------------------------------->
+
+//What are the differences between var, let and const?
+
+
+// Var is an Global scope 
+// var can be modified
+// var can be redeclared 
+
+
+// let is an Block scope
+// let can be modified 
+// let cannot be redeclared
+
+// Const is an Block scope 
+// const cannot be modified
+// const cannot be redeclared
+
+// -In JavaScript, users can declare a variable using 3 keywords that are var, 
+//let, and const.
+// -var keyword is oldest keyword and let and const are introduced in es6.
+// 1.var declarations are globally scoped or function scoped while let and const are block scoped.
+// 2.var variables can be updated and re-declared within its scope; let variables can be updated 
+//   but not re-declared; const variables can neither be updated nor re-declared.
+// 3.They are all hoisted to the top of their scope. But while var variables are 
+//   initialized with undefined, let and const variables are not initialized.
+// 4.While var and let can be declared without being initialized,
+//   const must be initialized during declaration.
+
+******************************************************************************************
+
+//que4----------------------------------------------------------------------------------->
+
+//What is execution context------------------------------------------------->
+
+
+//1. The browser's JavaScript engine then creates a special environment to handle the transformation
+//  and execution of this JavaScript code. This environment is known as the Execution Context.
+
+//2. The Execution Context contains the code that's currently running,
+//  and everything that aids in its execution.
+
+//3.  -During the Execution Context run-time, the specific code gets parsed by a parser,
+//  the variables and functions are stored in memory, executable byte-code gets generated,
+//  and the code gets executed.
+
+//4. -There are two kinds of Execution Context in JavaScript:
+//           a] Global Execution Context (GEC)
+//           b] Function Execution Context (FEC)
+
+
+********************************************************************************************
+
+//que5--------------------------------------------------------------------------------------->
+
+//What is meant by first class functions and high order function:
+
+// High Order Function :High order Function is a function that takes another function as an argument (or) return function as the result 
+
+// First class Function:A Programming Language is said to have first class function when function in that language are treated like any other variable 
+
+
+// 1.We can assign a function to an variable 
+
+// 2.we can pass a function as an argument 
+
+// 3. Function can be returned by another function
+
+//forex---------------------------------------------------------->
+
+//examples of first order and highest order function
+
+// function displayuser(){
+//     return function(){
+//         console.log("display user");
+//     }
+// }
+
+// const a=function() {
+//     console.log(":hi");
+// }
+
+
+
+
+
+
+
+##########################################################################################
